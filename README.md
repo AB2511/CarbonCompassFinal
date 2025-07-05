@@ -1,6 +1,6 @@
 # Carbon Compass
 
-**Carbon Compass** is a web application designed to empower individuals to understand, track, and reduce their environmental impact. It offers tools to calculate carbon footprints, offset emissions, engage with a sustainability community, and earn rewards for eco-friendly actions, making sustainable living accessible and engaging.
+**Carbon Compass** is a web application developed as part of the **Bolt AI Hackathon 2025**, the world's largest hackathon of 2025, leveraging **Bolt AI** to empower individuals to understand, track, and reduce their environmental impact. It offers tools to calculate carbon footprints, offset emissions, engage with a sustainability community, and earn rewards for eco-friendly actions, making sustainable living accessible and engaging.
 
 ## Table of Contents
 
@@ -11,6 +11,7 @@
 - [Usage](#usage)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
+- [Credits](#credits)
 - [License](#license)
 - [Contact](#contact)
 
@@ -45,7 +46,7 @@
   ([`src/pages/CommunityPage.tsx`](./src/pages/CommunityPage.tsx))
 
 - **AI-Powered Suggestions**  
-  Receive personalized recommendations to reduce your carbon footprint, currently implemented as a mock via Supabase Edge Function.  
+  Receive personalized recommendations to reduce your carbon footprint, currently implemented as a mock via Supabase Edge Function, enhanced with Bolt AI during the hackathon.  
   ([`src/pages/DashboardPage.tsx`](./src/pages/DashboardPage.tsx), [`supabase/functions/suggestionAI/index.ts`](./supabase/functions/suggestionAI/index.ts))
 
 - **Notifications**  
@@ -75,6 +76,9 @@
 ### Backend & Database
 - **Supabase**: Open-source Firebase alternative with PostgreSQL database, authentication, and serverless Edge Functions.
 - **Supabase Edge Functions**: Handles backend logic for carbon calculations, point awarding, and AI suggestions.
+
+### AI Integration
+- **Bolt AI**: Utilized during the Bolt AI Hackathon 2025 to enhance AI-powered features, such as personalized carbon reduction suggestions.
 
 ### Deployment
 - **Netlify**: Continuous deployment and hosting for the web application.
@@ -181,13 +185,17 @@ We welcome contributions to *Carbon Compass*! To contribute:
 
 Ensure your code follows the project’s coding standards and includes tests where applicable.
 
+## Credits
+
+*Carbon Compass* was developed as part of the **Bolt AI Hackathon 2025**, the world's largest hackathon in 2025. We leveraged **Bolt AI** to enhance the development process, particularly for implementing AI-powered features like personalized carbon reduction suggestions. Special thanks to the Bolt AI team and the hackathon organizers for providing an inspiring platform to create innovative solutions for sustainability.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
 ## Contact
 
-For questions or feedback, reach out via the [Contact Us](#) page or open an issue on GitHub.
+For questions or feedback, reach out via the [Contact Us](#) page or open an issue on [GitHub](https://github.com/AB2511/CarbonCompassFinal/issues).
 
 ---
 
