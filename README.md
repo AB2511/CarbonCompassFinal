@@ -94,8 +94,8 @@ To set up *Carbon Compass* locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/carbon-compass.git
-   cd carbon-compass
+   git clone https://github.com/AB2511/CarbonCompassFinal.git
+   cd CarbonCompassFinal
    ```
 
 2. **Install dependencies**:
